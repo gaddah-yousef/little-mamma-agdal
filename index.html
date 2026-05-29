@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1b110a" />
+    <meta name="description" content="Little Mamma — trattoria italienne à Agdal, Rabat. Pizzas au feu de bois, pâtes fraîches, livraison à domicile." />
+    <title>Little Mamma Agdal — Trattoria à Rabat</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+<nav id="topnav" class="topnav">
+    <a href="#hero" class="topnav__brand">
+        <span class="topnav__mark">Little Mamma</span>
+        <span class="topnav__sub">Agdal — Rabat</span>
+    </a>
+    <ul class="topnav__links">
+        <li><a href="#about">L'histoire</a></li>
+        <li><a href="#menu">La carte</a></li>
+        <li><a href="#gallery">Ambiance</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="open-cart" class="topnav__cart" type="button">
+        Commande <span id="cart-count">0</span>
+    </button>
+</nav>
+
+<section id="hero" class="hero">
+    <div class="hero__media">
+        <img class="hero__img" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1920&q=80" alt="Pizza margherita au feu de bois" />
+        <div class="hero__veil"></div>
+    </div>
+    <div class="hero__content">
+        <span class="hero__eyebrow">Trattoria italienne — Agdal, Rabat</span>
+        <h1 class="hero__title">Little<br/>Mamma</h1>
+        <p class="hero__lede">Pâte fermentée 48 heures, four à bois, pâtes fraîches du matin.<br/>L'Italie de la mamma, au cœur d'Agdal.</p>
+        <div class="hero__cta">
+            <a class="btn btn--primary" href="#menu">Découvrir la carte</a>
+            <a class="btn btn--ghost" href="#contact">Réserver</a>
+        </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Descendre">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-label">Faire défiler</span>
+    </a>
+</section>
+
+<section id="about" class="about reveal">
+    <div class="about__grid">
+        <div class="about__media">
+            <img src="assets/images/little-mamma.jpg" alt="Little Mamma — l'histoire" loading="lazy" />
+        </div>
+        <div class="about__body">
+            <span class="section__eyebrow">L'histoire</span>
+            <h2 class="section__title">Une trattoria qui sent bon le basilic</h2>
+            <p>Niché avenue Fal Ould Oumeir, Little Mamma cultive depuis sa première fournée un rituel simple : des produits de saison, des recettes signées par la nonna, et une cuisson au feu de bois qui ne se négocie pas.</p>
+            <p>Chaque jour, la pâte repose 48 heures, les pâtes sont étirées à la main, et la mozzarella di bufala arrive entière. Vous êtes en famille, en couple, ou en escale gourmande — la salle reste la même : chaude, simple, vivante.</p>
+            <ul class="about__pills">
+                <li>Four à bois</li>
+                <li>Pâte 48h</li>
+                <li>Pasta fresca</li>
+                <li>Livraison à Rabat</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="menu" class="menu reveal">
+    <header class="section__head">
+        <span class="section__eyebrow">La carte</span>
+        <h2 class="section__title">Un menu simple,<br/>des produits qui parlent.</h2>
+        <div class="menu__tabs" id="menu-tabs"></div>
+    </header>
+    <div class="menu__sections" id="menu-sections"></div>
+</section>
+
+<section id="gallery" class="gallery reveal">
+    <header class="section__head">
+        <span class="section__eyebrow">L'ambiance</span>
+        <h2 class="section__title">L'atelier au quotidien</h2>
+    </header>
+    <div class="gallery__grid">
+        <figure class="gallery__cell gallery__cell--tall">
+            <img src="https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?auto=format&fit=crop&w=900&q=80" alt="Pizza sortant du four" loading="lazy" />
+        </figure>
+        <figure class="gallery__cell">
+            <img src="https://images.unsplash.com/photo-1572441713132-c542fc4fe282?auto=format&fit=crop&w=900&q=80" alt="Pâtes fraîches en préparation" loading="lazy" />
+        </figure>
+        <figure class="gallery__cell">
+            <img src="https://images.unsplash.com/photo-1481931098730-318b6f776db0?auto=format&fit=crop&w=900&q=80" alt="Plateau d'antipasti" loading="lazy" />
+        </figure>
+        <figure class="gallery__cell gallery__cell--wide">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=80" alt="Salle de la trattoria" loading="lazy" />
+        </figure>
+        <figure class="gallery__cell">
+            <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=900&q=80" alt="Pizza margherita tranchée" loading="lazy" />
+        </figure>
+        <figure class="gallery__cell">
+            <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80" alt="Spaghetti à la bolognaise" loading="lazy" />
+        </figure>
+    </div>
+</section>
+
+<section id="contact" class="contact reveal">
+    <div class="contact__grid">
+        <div>
+            <span class="section__eyebrow">Contact</span>
+            <h2 class="section__title">On se voit ce soir ?</h2>
+            <p class="contact__lede">Réservation, livraison ou simplement un café au comptoir — passez quand vous voulez.</p>
+            <dl class="contact__info">
+                <div><dt>Adresse</dt><dd>Avenue Fal Ould Oumeir, Agdal, Rabat</dd></div>
+                <div><dt>Téléphone</dt><dd><a href="tel:+212708207496">07 08 20 74 96</a></dd></div>
+                <div><dt>Horaires</dt><dd>Lun — Dim · 12h00 – 23h30</dd></div>
+                <div><dt>Livraison</dt><dd>Rabat &amp; Salé · Glovo / propre flotte</dd></div>
+            </dl>
+        </div>
+        <div class="contact__map">
+            <img src="assets/images/little-mamma-contact.png" alt="Little Mamma — contact" loading="lazy" />
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__row">
+        <span class="footer__brand">Little Mamma · Agdal Rabat</span>
+        <span class="footer__meta">© <span id="footer-year"></span> · Tous droits réservés</span>
+    </div>
+</footer>
+
+<aside id="cart-panel" class="cart-panel" aria-hidden="true">
+    <header class="cart-panel__head">
+        <h2>Votre commande</h2>
+        <button class="cart-panel__close" data-close="cart-panel" type="button">Fermer</button>
+    </header>
+    <div class="cart-panel__list" id="cart-list"></div>
+    <div class="cart-panel__total">
+        <span>Total</span>
+        <span><strong id="cart-total-amount">0</strong> DH</span>
+    </div>
+    <form id="checkout-form" class="checkout-form" novalidate>
+        <label class="field">
+            <span>Nom complet</span>
+            <input type="text" name="name" autocomplete="name" required minlength="2" />
+        </label>
+        <label class="field">
+            <span>Téléphone</span>
+            <input type="tel" name="phone" autocomplete="tel" required pattern="^[+0-9\s]{8,16}$" />
+        </label>
+        <label class="field">
+            <span>Adresse de livraison (Rabat)</span>
+            <textarea name="address" rows="2" required minlength="6"></textarea>
+        </label>
+        <button type="submit" class="checkout-submit">Envoyer la commande via WhatsApp</button>
+        <p class="form-hint" id="form-hint" role="status"></p>
+    </form>
+</aside>
+
+<div id="cart-overlay" class="cart-overlay" data-close="cart-panel"></div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

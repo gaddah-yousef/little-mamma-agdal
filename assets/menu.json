@@ -1,0 +1,424 @@
+{
+    "restaurant": {
+        "name": "Little Mamma Agdal",
+        "city": "Rabat",
+        "address": "Avenue Fal Ould Oumeir, Agdal, Rabat",
+        "whatsapp": "212708207496",
+        "currency": "DH"
+    },
+    "categories": [
+        {
+            "id": "salades",
+            "label": "Salades",
+            "intro": "Fraîcheur du jour, mesclun croquant et antipasti maison.",
+            "items": [
+                {
+                    "id": "sa-caprese",
+                    "name": "Salade Caprese",
+                    "description": "Mozzarella, tomates, mesclun de salade, basilic, crème pesto.",
+                    "price": 49,
+                    "image_url": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-stracciatella",
+                    "name": "Salade Stracciatella",
+                    "description": "Tartine grillée au pesto, tomates cerises marinées, stracciatella, basilic, huile d'olive.",
+                    "price": 45,
+                    "image_url": "https://images.unsplash.com/photo-1572441713132-c542fc4fe282?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-cesar-poulet",
+                    "name": "Salade César Poulet",
+                    "description": "Salade romaine, poulet mariné et grillé, croûtons au pesto, tomates cerises, parmesan, sauce César.",
+                    "price": 59,
+                    "image_url": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-cesar-gambas",
+                    "name": "Salade César Gambas",
+                    "description": "Salade romaine, gambas, toast grillé, tomates cerises, parmesan, sauce César.",
+                    "price": 65,
+                    "image_url": "https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-tartare-avocat",
+                    "name": "Tartare d'Avocat aux Gambas",
+                    "description": "Mesclun de salade, écrasé d'avocat, gambas, sauce cocktail.",
+                    "price": 65,
+                    "image_url": "https://images.unsplash.com/photo-1551248429-40975aa4de74?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-big-mamma",
+                    "name": "Salade Big Mamma",
+                    "description": "Mesclun, thon, surimi, œufs de caille, avocat, champignons, légumes grillés, tomates cerises, sauce balsamique au miel.",
+                    "price": 65,
+                    "image_url": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-burrata",
+                    "name": "Burrata",
+                    "description": "Burrata italienne, mesclun, aubergines grillées, champignons, tomates cerises, sauce à l'huile d'olive.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1608032077018-c9aad9565d29?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-quinoa-love",
+                    "name": "Quinoa Love",
+                    "description": "Quinoa, gambas, avocat, mangue, tomates cerise, haricot rouge, mesclun, sauce balsamique au miel.",
+                    "price": 69,
+                    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "sa-little-mamma",
+                    "name": "Salade Little Mamma",
+                    "description": "Gambas, avocat, mangue, pamplemousse, concombre, sauce vinaigrette maison.",
+                    "price": 59,
+                    "image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=80"
+                }
+            ]
+        },
+        {
+            "id": "pizzas",
+            "label": "Pizzas",
+            "intro": "Pizza Napoletana — 48h de levée, cuisson à 400°, 70 secondes.",
+            "items": [
+                {
+                    "id": "pz-margherita",
+                    "name": "Margherita",
+                    "description": "Sauce tomate, mozzarella, basilic.",
+                    "price": 39,
+                    "image_url": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-mammargherita",
+                    "name": "Mammargherita",
+                    "description": "Crème parmesan, mozzarella, tomates cerises, stracciatella, basilic, crème balsamique, parmesan.",
+                    "price": 69,
+                    "image_url": "https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-tuna",
+                    "name": "Tuna",
+                    "description": "Sauce tomate, mozzarella, olives noires, thon, oignons, poivrons.",
+                    "price": 69,
+                    "image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-kefta",
+                    "name": "La Kefta",
+                    "description": "Sauce tomate, mozzarella, viande hachée, olives noires, poivrons, oignons.",
+                    "price": 69,
+                    "image_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-calzone",
+                    "name": "Calzone",
+                    "description": "Sauce tomate, mozzarella, champignons, jambon, origan.",
+                    "price": 65,
+                    "image_url": "https://images.unsplash.com/photo-1542587222-f9172e5cfdd2?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-carbonara",
+                    "name": "Carbonara",
+                    "description": "Crème parmesan, mozzarella, jambon, œuf, parmesan.",
+                    "price": 69,
+                    "image_url": "https://images.unsplash.com/photo-1593504049359-74330189a345?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-cesar",
+                    "name": "César",
+                    "description": "Crème parmesan, mozzarella, poulet, roquette, salade romaine, tomates cerises, parmesan, sauce César.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-mamma-calzone",
+                    "name": "Mamma Calzone",
+                    "description": "Sauce tomate, mozzarella, jambon, olives noires, basilic, tomates cerises, parmesan, huile d'olive, origan.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1605478579020-bb50e6b6a1e2?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-green-mamma",
+                    "name": "Green Mamma",
+                    "description": "Crème parmesan, mozzarella, roquette, champignons, épinards, avocat, stracciatella, tomates cerises, parmesan.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1589840700256-41c5d84af80d?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-truffly",
+                    "name": "Truffly",
+                    "description": "Crème parmesan, mozzarella, champignons, huile de truffe, crème balsamique, parmesan.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1571066811602-716837d681de?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-solo-verdure",
+                    "name": "Solo Verdure",
+                    "description": "Crème parmesan, mozzarella, aubergines, courgettes, épinards, champignons, roquette, tomates cerises, parmesan, pesto.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1604917877934-07d8d248d396?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-big-mamma",
+                    "name": "Big Mamma",
+                    "description": "Sauce tomate, mozzarella, jambon, poivrons, viande hachée, olives noires.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-pollo-bbq",
+                    "name": "Pollo Barbecue",
+                    "description": "Crème parmesan, mozzarella, poivrons sautés, poulet rôti, sauce barbecue.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-5-fromaggi",
+                    "name": "5 Fromaggi",
+                    "description": "Crème parmesan, gorgonzola, mozzarella, parmesan, ricotta.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-cheese-pepperoni",
+                    "name": "Cheese Pepperoni",
+                    "description": "Sauce tomate, double mozzarella, pepperoni de bœuf.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-little-mamma",
+                    "name": "Little Mamma",
+                    "description": "Crème parmesan, mozzarella, roquette, champignons, jambon, parmesan, stracciatella, huile de truffe.",
+                    "price": 89,
+                    "image_url": "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-al-salmone",
+                    "name": "Al Salmone",
+                    "description": "Crème parmesan, mozzarella, saumon fumé, stracciatella, avocat.",
+                    "price": 95,
+                    "image_url": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-frutti-di-mare",
+                    "name": "Frutti Di Mare",
+                    "description": "Sauce tomate, mozzarella, moules, palourdes, crevettes, calamars, origan.",
+                    "price": 95,
+                    "image_url": "https://images.unsplash.com/photo-1576458088443-04a19bb13da6?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-burrata",
+                    "name": "Burrata",
+                    "description": "Sauce tomate, mozzarella, burrata, tomates cerises, roquette, parmesan, sauce pesto.",
+                    "price": 95,
+                    "image_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-polpo",
+                    "name": "Polpo Marinara",
+                    "description": "Poulpes, tomates cerise, olives, basilic, parmesan, sauce marinara.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-cheesy-pomodoro",
+                    "name": "Cheesy Pomodoro Bowl",
+                    "description": "Penne, sauce tomate maison, stracciatella, basilic, parmesan.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pz-cheesy-pesto",
+                    "name": "Cheesy Pesto Bowl",
+                    "description": "Penne, sauce pesto maison, stracciatella, pignons de pin, parmesan.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=900&q=80"
+                }
+            ]
+        },
+        {
+            "id": "pastas",
+            "label": "Pastas",
+            "intro": "Mamma loves pasta — pâtes fraîches, sauces maison.",
+            "items": [
+                {
+                    "id": "pa-lasagna-classica",
+                    "name": "Lasagna Classica",
+                    "description": "Lasagnes maison, ragù de bœuf, béchamel, mozzarella, parmesan.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pa-penne-5-fromage",
+                    "name": "Penne 5 Fromaggi",
+                    "description": "Crème parmesan, gorgonzola, mozzarella, parmesan, ricotta.",
+                    "price": 65,
+                    "image_url": "https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pa-tagliatelle-salmone",
+                    "name": "Tagliatelle Al Salmone",
+                    "description": "Sauce rosée, crème fraîche, saumon fumé.",
+                    "price": 89,
+                    "image_url": "https://images.unsplash.com/photo-1611270629569-8b357cb88da9?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pa-linguini-frutti",
+                    "name": "Linguini Frutti Di Mare",
+                    "description": "Palourdes, moules, gambas, calamars, épinards, tomates cerises, ail, huile d'olive.",
+                    "price": 89,
+                    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pa-lasagna-pollo",
+                    "name": "Lasagna Al Pollo",
+                    "description": "Lasagnes au poulet et champignons, crème aux champignons, mozzarella.",
+                    "price": 69,
+                    "image_url": "https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pa-spaghetti-gambas",
+                    "name": "Spaghetti aux Gambas",
+                    "description": "Gambas, champignons de Paris, brocolis, carottes, courgettes, tomates cerise, filet d'huile d'olive, parmesan.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "pa-pappardelle",
+                    "name": "Pappardelle Della Casa",
+                    "description": "Pappardelle, ragù de bœuf extra-tendre, parmesan.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80"
+                }
+            ]
+        },
+        {
+            "id": "ravioli",
+            "label": "Ravioli & Risotto",
+            "intro": "Italian cuisine, a taste of amore — pâtes farcies maison et risottos crémeux.",
+            "items": [
+                {
+                    "id": "rv-pink",
+                    "name": "Pink Raviolis",
+                    "description": "Raviolis maison farcis aux gambas, crème au beurre blanc citronné.",
+                    "price": 89,
+                    "image_url": "https://images.unsplash.com/photo-1587740908075-9e245770dde6?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "rv-green",
+                    "name": "Green Raviolis",
+                    "description": "Raviolis maison farcis aux épinards et ricotta, stracciatella fondante, tomate cerise, basilic, parmesan, sauce pomodoro.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1556761223-4c4282c73f77?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "rv-white",
+                    "name": "White Raviolis",
+                    "description": "Raviolis maison farcis au poulet et aux champignons de Paris, parmesan, sauce Parma Rosa.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1633436374961-09b04ce30c69?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "rv-tortelloni-truffe",
+                    "name": "Tortelloni à la Truffe",
+                    "description": "Tortelloni maison farcis aux champignons, crème à la truffe noire.",
+                    "price": 85,
+                    "image_url": "https://images.unsplash.com/photo-1587740908075-9e245770dde6?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "rv-risotto-truffly",
+                    "name": "Risotto Truffly",
+                    "description": "Riz, champignons, parmesan, crème de truffe.",
+                    "price": 79,
+                    "image_url": "https://images.unsplash.com/photo-1633964913295-ceb43956cc35?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "rv-risotto-mare",
+                    "name": "Risotto Mare",
+                    "description": "Riz, palourdes, moules, calamars, gambas.",
+                    "price": 89,
+                    "image_url": "https://images.unsplash.com/photo-1633504581786-316c8002b1b9?auto=format&fit=crop&w=900&q=80"
+                }
+            ]
+        },
+        {
+            "id": "plats",
+            "label": "Secondi Piatti",
+            "intro": "Les plats de la mamma, généreux et bien dressés.",
+            "items": [
+                {
+                    "id": "se-pollo-parmigiana",
+                    "name": "Pollo Parmigiana",
+                    "description": "Poulet pané gratiné, penne pomodoro, sauce tomate, mozzarella.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "se-supreme-poulet",
+                    "name": "Suprême de Poulet",
+                    "description": "Escalope de poulet grillé, purée de pommes de terre, brocoli, champignons, sauce moutarde à l'ancienne.",
+                    "price": 75,
+                    "image_url": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "se-filet-macncheese",
+                    "name": "Filet Mac'n'Cheese",
+                    "description": "Filet de bœuf grillé, Mac'n'Cheese à la crème de cheddar et parmesan.",
+                    "price": 95,
+                    "image_url": "https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "se-entrecote",
+                    "name": "L'Entrecôte de la Mamma",
+                    "description": "Entrecôte au grill, spaghettis maison, légumes grillés.",
+                    "price": 99,
+                    "image_url": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "se-salmone-fresco",
+                    "name": "Salmone Fresco",
+                    "description": "Pavé de saumon grillé, spaghettis maison, épinards, champignons.",
+                    "price": 99,
+                    "image_url": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80"
+                }
+            ]
+        },
+        {
+            "id": "dolci",
+            "label": "Dolci",
+            "intro": "Douceurs maison, à finir en beauté.",
+            "items": [
+                {
+                    "id": "do-pistachou",
+                    "name": "Pistachou",
+                    "description": "Chou craquelin, gelato à la pistache et Nutella.",
+                    "price": 45,
+                    "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "do-tiramisu",
+                    "name": "Le Tiramisu Little Mamma",
+                    "description": "Tiramisu classique fait maison, avec une touche de Nutella.",
+                    "price": 45,
+                    "image_url": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "do-french-toast",
+                    "name": "French Toast Arc-en-Ciel",
+                    "description": "Pain perdu moelleux au caramel beurre salé, boule de gelato à la vanille, popcorns caramélisés.",
+                    "price": 45,
+                    "image_url": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=900&q=80"
+                },
+                {
+                    "id": "do-cheesecake",
+                    "name": "The One & Only Cheesecake",
+                    "description": "Cheesecake maison aux speculos, coulis de caramel.",
+                    "price": 45,
+                    "image_url": "https://images.unsplash.com/photo-1567171466295-4afa63d45416?auto=format&fit=crop&w=900&q=80"
+                }
+            ]
+        }
+    ]
+}
